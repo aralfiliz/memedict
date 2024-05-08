@@ -1,0 +1,15 @@
+meme_dict = {
+            "CRINGE": "Garip ya da utandırıcı bir şey",
+            "LOL": "Komik bir şeye verilen cevap",
+            "GG": "İyi oyunlar ",
+            "NT":"Sıkıntı yok",
+            "BB":"Görüşürüz",
+            "FF":"Teslim ol ",
+            
+            }
+while True:            
+    word = input("Anlamadığın kelimeyi yaz (hepsini büyük harflerle yazın!): ")
+    if word in meme_dict.keys():
+        print(meme_dict[word])
+    else:
+        print("O kelime maalesef sözlükte yoktur!")
